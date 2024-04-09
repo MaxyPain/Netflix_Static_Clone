@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Martel Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/background.jpg);
+    height: 720px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    background-size: max(2400px, 100vw);
+    max-width: 100%;
+}
+
+.main .black {
+    height: 720px;
+    width: 100%;
+    opacity: 0.74;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75vw;
+    margin: auto;
+    height: 85px;
+    padding-top: 30px;
+}
+
+nav img {
+    width: 144px;
+    position: relative;
+    z-index: 1;
+}
+
+nav .buttons {
+    z-index: 1;
+    position: relative;
+}
+
+.text {
+    height: calc(100% - 85px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.text> :nth-child(1) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.text> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.text> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.line {
+    height: 5px;
+    background-color: rgba(128, 128, 128, 0.373);
+}
+.line1 {
+    color: white;
+    height: 5px;
+    background-color: rgba(128, 128, 128, 0.373);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    z-index: 10;
+}
+
+#lang {
+    padding: 3px 8px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(52, 50, 50, 0.002);
+}
+
+.btn-red {
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    padding: 3px 8px;
+    cursor: pointer;
+    border: 1px solid red;
+}
+.btn-red:hover{
+    background-color: rgba(255, 0, 0, 0.588);
+}
+
+.btn-red-start {
+    padding: 3px 24px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid red;
+    cursor: pointer;
+}
+.btn-red-start:hover{
+    background-color: rgba(255, 0, 0, 0.588);
+    border: 1px solid rgba(255, 0, 0, 0.488);
+}
+#lang:hover{
+    background-color: white;
+    color: black;
+}
+
+.text-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    padding: 10px 101px 8px 14px;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 0.01px solid white;
+}
+
+/* First Section */
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 70vw;
+    margin: 100px;
+    color: white;
+}
+
+.tv1 {
+    position: relative;
+}
+
+.tv1 img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.tv1 video {
+    position: absolute;
+    top: 51px;
+    right: 20px;
+    overflow: hidden;
+}
+
+.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+.first>div :nth-child(1) {
+    font-size: 48px;
+    color: white;
+    font-weight: 900;
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+/* Second Section */
+
+.box {
+    background-color: black;
+    height: 55px;
+    width: 290px;
+    position: relative;
+    top: 27.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 10.938rem;
+    border: 1px solid white;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.stranger {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 13px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: bold;
+}
+
+.first-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50vw;
+    margin: 100px;
+    color: white;
+}
+
+.first-second>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.titles {
+    font-size: 48px;
+    color: white;
+    font-weight: 900;
+}
+
+.titles1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.ministange {
+    width: 34px;
+}
+
+.minidownload {
+    width: 34px;
+}
+
+.minidown {
+    color: blue;
+    font-size: 10px;
+}
+
+/* Third Section */
+
+.tv3 {
+    position: relative;
+}
+
+.tv3 img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.tv3 video {
+    position: absolute;
+    top: 71px;
+    right: 110px;
+    width: 340px;
+    overflow: hidden;
+}
+
+/* Footer */
+
+.faq {
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.faq h2 {
+    font-weight: 500;
+    font-size: 48px;
+}
+
+
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 40px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 15px 40px;    
+} 
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 60vw;
+    margin: auto;
+}
+
+footer .questions {
+    padding: 34px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 30px;
+}
+
+
+.footer a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.text1> :nth-child(1) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+/* bottom mail */
+
+.text1 input {
+    padding: 10px 101px 8px 14px;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 0.01px solid white;
+}
+
+/* Climax */
+
+.myname{
+    color: rgba(255, 0, 0, 0.505);
+    font-size: 25px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}

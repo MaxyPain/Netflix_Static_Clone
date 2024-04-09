@@ -1,0 +1,156 @@
+@media screen and (max-width: 1300px) {
+    .text-buttons {
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: rgba(255, 255, 255, 0.7);
+        gap: 25px;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .tv1 img {
+        width: 455px;
+    }
+
+    .tv1 video {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .first-second {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .text> :nth-child(1) {
+        font-weight: 700;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .text> :nth-child(2) {
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .text> :nth-child(3) {
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .first>div :nth-child(1) {
+        font-size: 40px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .first>div :nth-child(2) {
+        font-size: 19px;
+        font-weight: 200;
+        color: #ffffff;
+    }
+
+    .first-second>div {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+
+    .titles {
+        font-size: 40px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .titles1 {
+        font-size: 19px;
+        font-weight: 200;
+        color: #ffffff;
+    }
+    .box {
+        background-color: black;
+        height: 55px;
+        width: 192px;
+        position: relative;
+        top: 15.5rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        left: 4.938rem;
+        border: 1px solid white;
+        z-index: 1;
+        border-radius: 8px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tv3 {
+        padding: 52px;
+    }
+
+    .tv3 video {
+        width: 165px;
+        top: 58px;
+        right: 90px;
+    }
+
+    .tv3 img {
+        width: 270px;
+        left: -33px;
+    }
+
+    .main input {
+        padding: 10px 101px 10px 14px;
+    }
+    .faq h2{
+        font-size: 20px;
+    }
+    .accordion .content{
+        font-size: 14px;
+    }
+    .accordion li label{
+        padding: 10px;
+        font-size: 12px;
+    }
+    label::after{
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        flex-wrap: wrap;
+        max-width: 45vw;
+    }
+
+    .tv1 img {
+        width: 255px;
+        left: -32px;
+    }
+
+    .tv1 video {
+        width: 200px;
+        top: 72px;
+        right: 54px;
+    }
+    .titles2{
+        padding-right: 46px;
+    }
+    .titles3{
+        padding-right: 60px;
+    }
+    .myname{
+        font-size: 20px;
+    }
+}
